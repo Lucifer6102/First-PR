@@ -6,10 +6,6 @@ class Node
 {
 	public:
 	string val;
-	vector<Node*> children;
-	bool is_locked=false;
-	Node* _parent=nullptr;
-	multiset<string> des;
 	int self_uid;
 	map<int,int> uid;
 	
