@@ -19,9 +19,6 @@ class Node
 	}
 	bool Lock(int ud,map<string,Node *> &mp)
 	{
-		if(isLock())
-		return false;
-		
 		if((int)des.size()>0)
 		return false;
 		
