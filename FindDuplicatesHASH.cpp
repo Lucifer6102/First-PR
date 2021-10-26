@@ -6,9 +6,6 @@ int main(){
     char input[100];
     int hash[26];
 
-
-    int i=0,j=0;
-
     for(int j=0;j<=25;j++){
         hash[j]=0;
     }
