@@ -6,9 +6,6 @@ int main(){
     char input[100];
     int hash[26];
 
-    cout<<"Enter String ";
-    gets(input);
-    puts(input);
 
     int i=0,j=0;
 
