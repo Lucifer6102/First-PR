@@ -6,10 +6,6 @@ class Node
 {
 	public:
 	string val;
-	vector<Node*> children;
-	bool is_locked=false;
-	Node* _parent=nullptr;
-	multiset<string> des;
 	int self_uid;
 	map<int,int> uid;
 	
@@ -19,9 +15,6 @@ class Node
 	}
 	bool Lock(int ud,map<string,Node *> &mp)
 	{
-		if(isLock())
-		return false;
-		
 		if((int)des.size()>0)
 		return false;
 		
